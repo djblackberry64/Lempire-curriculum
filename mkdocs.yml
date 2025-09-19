@@ -1,0 +1,8 @@
+site_name: "Lempire Curriculum"
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Foundations:
+    - Intro: foundations/intro.md
