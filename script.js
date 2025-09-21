@@ -109,5 +109,24 @@ document.getElementById("resetBtn").onclick = () => {
     renderCurriculum();
   }
 };
+function updateOverallProgress() {
+  const allLessons = Object.values(curriculumData).flat();
+  const total = allLessons.length;
+  const done = allLessons.filter((l) => progress[l.url]).length;
+  const percent = total ? Math.round((done / total) * 100) : 0;
+
+  document.getElementById("overall-percentage").textContent = percent + "%";
+  document.getElementById("overall-bar").style.width = percent + "%";
+
+  // Section Bars
+  Object.keys(curriculumData).forEach((sectionKey) => {
+    const section = curriculumData[sectionKey];
+    const secPercent = Math.round(
+      (section.filter((l) => progress[l.url]).length / section.length) * 100
+    );
+    const secBar = document.querySelector(`#section-bar-${sectionKey}`);
+    if (secBar) secBar.style.width = secPercent + "%";
+  });
+}
 
 loadCurriculum();
