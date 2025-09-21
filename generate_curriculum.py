@@ -48,5 +48,5 @@ os.makedirs(DATA_DIR, exist_ok=True)
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(curriculum, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Curriculum JSON erstellt: {OUTPUT_FILE}")
+print(f"Curriculum JSON created: {OUTPUT_FILE}")
 
