@@ -1,0 +1,10 @@
+{
+  "Assets": [],
+  "Foundations": [
+    {
+      "url": "/foundations/intro/",
+      "file": "intro.md",
+      "totalChapters": 2
+    }
+  ]
+}
