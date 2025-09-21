@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/script.js"></script>
 <!-- Top Progress Bar -->
 <div id="top-progress-container">
   <span id="top-percentage">0%</span>
