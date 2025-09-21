@@ -6,5 +6,12 @@ nav:
   - Home: index.md
   - Foundations:
     - Intro: foundations/intro.md
+# Include custom CSS
+extra_css:
+  - css/style.css
+
+# Include custom JavaScript
+extra_javascript:
+  - js/script.js
 plugins:
   - search
