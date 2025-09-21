@@ -31,8 +31,11 @@ You'll see the overall progress of your curriculum here.
 
 <div id="curriculum"></div>
 
-<button id="exportBtn">Export Progress</button>
-<button id="importBtn">Import Progress</button>
-<button id="resetBtn">Reset Progress</button>
+
 
 <!-- Buttons -->
+<button id="export-progress">📤 Fortschritt exportieren</button>
+<input type="file" id="import-file" style="display:none;">
+<button id="import-progress">📥 Fortschritt importieren</button>
+<button id="resetBtn">Reset Progress</button>
+

@@ -74,3 +74,48 @@ document.addEventListener("DOMContentLoaded", () => {
 
   updateProgressUI();
 });
+// Exportieren
+const exportBtn = document.querySelector("#export-progress");
+if (exportBtn) {
+  exportBtn.addEventListener("click", () => {
+    const progress = loadProgress();
+    const blob = new Blob([JSON.stringify(progress, null, 2)], {
+      type: "application/json",
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "curriculum-progress.json";
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+}
+
+// Importieren
+const importBtn = document.querySelector("#import-progress");
+const importFile = document.querySelector("#import-file");
+
+if (importBtn && importFile) {
+  importBtn.addEventListener("click", () => {
+    importFile.click();
+  });
+
+  importFile.addEventListener("change", (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const importedProgress = JSON.parse(e.target.result);
+        saveProgress(importedProgress);
+        updateProgressUI();
+        alert("Fortschritt erfolgreich importiert!");
+      } catch (err) {
+        alert("Fehler beim Import: Ungültige JSON-Datei.");
+        console.error(err);
+      }
+    };
+    reader.readAsText(file);
+  });
+}
