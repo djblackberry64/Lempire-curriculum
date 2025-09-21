@@ -54,44 +54,62 @@ async function updateProgressUI() {
   let totalLessons = 0;
   let completedLessons = 0;
 
-  Object.values(curriculum).forEach((section) => {
-    section.forEach((lesson) => {
+  // Clear existing curriculum div
+  const curriculumDiv = document.querySelector("#curriculum");
+  if (curriculumDiv) curriculumDiv.innerHTML = "";
+
+  for (const [sectionName, lessons] of Object.entries(curriculum)) {
+    const sectionEl = document.createElement("div");
+    sectionEl.classList.add("section");
+    const sectionTitle = document.createElement("h2");
+    sectionTitle.textContent = sectionName;
+    sectionEl.appendChild(sectionTitle);
+
+    const sectionList = document.createElement("ul");
+    lessons.forEach((lesson) => {
       totalLessons++;
+      const lessonItem = document.createElement("li");
+      const lessonLink = document.createElement("a");
+      lessonLink.href = lesson.url;
+      lessonLink.textContent = lesson.file.replace(".md", "");
+      // Mark completed lessons
+      if (progress[lesson.url]) lessonLink.classList.add("completed");
+
+      lessonLink.addEventListener("click", (e) => {
+        // optional: prevent navigation for demo/testing
+        // e.preventDefault();
+        markLessonComplete(lesson.url);
+      });
+
+      lessonItem.appendChild(lessonLink);
+      sectionList.appendChild(lessonItem);
+
       if (progress[lesson.url]) completedLessons++;
     });
-  });
 
-  const percentage =
-    totalLessons > 0 ? Math.round((completedLessons / totalLessons) * 100) : 0;
+    sectionEl.appendChild(sectionList);
+    curriculumDiv.appendChild(sectionEl);
+  }
 
-  // Update all progress bars
-  const bars = document.querySelectorAll(".overall-progress-bar");
-  bars.forEach((bar) => {
-    bar.style.width = percentage + "%";
-  });
+  const overallPercentage = totalLessons
+    ? Math.round((completedLessons / totalLessons) * 100)
+    : 0;
 
-  const labels = document.querySelectorAll(".overall-progress-label");
-  labels.forEach((label) => {
-    label.textContent = `${percentage}% abgeschlossen (${completedLessons}/${totalLessons})`;
-  });
+  // Update overall container
+  const overallBar = document.querySelector("#overall-bar");
+  const overallLabel = document.querySelector("#overall-percentage");
+  if (overallBar) overallBar.style.width = overallPercentage + "%";
+  if (overallLabel)
+    overallLabel.textContent = `${overallPercentage}% (${completedLessons}/${totalLessons})`;
 }
 
 // ========================
 // Export / Import Progress
 // ========================
 document.addEventListener("DOMContentLoaded", () => {
-  const completeBtn = document.querySelector("#complete-lesson");
-  if (completeBtn) {
-    completeBtn.addEventListener("click", () => {
-      const url = window.location.pathname;
-      markLessonComplete(url);
-    });
-  }
-
-  const resetBtn = document.querySelector("#reset-progress");
+  const resetBtn = document.querySelector("#resetBtn");
   if (resetBtn) resetBtn.addEventListener("click", resetProgress);
 
-  // Export
   const exportBtn = document.querySelector("#export-progress");
   if (exportBtn) {
     exportBtn.addEventListener("click", () => {
@@ -108,7 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Import
   const importBtn = document.querySelector("#import-progress");
   const importFile = document.querySelector("#import-file");
   if (importBtn && importFile) {
