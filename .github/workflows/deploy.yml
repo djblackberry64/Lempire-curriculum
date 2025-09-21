@@ -1,16 +1,32 @@
-name: Deploy Curriculum
+name: Deploy MkDocs site
+
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write  # Wichtig! erlaubt gh-pages push
+
 jobs:
-  build:
+  build-deploy:
     runs-on: windows-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - run: pip install mkdocs mkdocs-material
-      - run: python generate_curriculum.py
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material ghp-import
+
+      - name: Build and Deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdocs gh-deploy --force --remote-name origin
