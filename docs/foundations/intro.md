@@ -22,3 +22,9 @@ In this chapter we'll give you a quick overview of what our curriculum's purpose
 </div>
 <!-- Lesson Complete Button -->
 <button id="completeLessonBtn">Lektion komplett abschließen</button>
+<div class="progress-container">
+  <div class="overall-progress-bar"></div>
+</div>
+<p class="overall-progress-label">0% abgeschlossen</p>
+<button id="complete-lesson">✔ Lektion abschließen</button>
+

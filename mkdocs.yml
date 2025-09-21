@@ -1,17 +1,13 @@
-site_name: "Lempire Curriculum"
+site_name: "Mein Curriculum"
+site_url: "https://username.github.io/repo-name/"
+use_directory_urls: true
+
 theme:
   name: material
 
-nav:
-  - Home: index.md
-  - Foundations:
-    - Intro: foundations/intro.md
-# Include custom CSS
+# Assets einbinden
 extra_css:
   - assets/css/style.css
 
-# Include custom JavaScript
 extra_javascript:
   - assets/js/script.js
-plugins:
-  - search
