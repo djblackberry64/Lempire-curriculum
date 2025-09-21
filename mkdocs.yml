@@ -6,3 +6,5 @@ nav:
   - Home: index.md
   - Foundations:
     - Intro: foundations/intro.md
+plugins:
+  - search
