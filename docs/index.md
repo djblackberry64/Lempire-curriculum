@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="assets/css/style.css">
-<script src="assets/js/script.js"></script>
 # Welcome to MkDocs
 
 
@@ -22,20 +20,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Curriculum Overview
 
 You'll see the overall progress of your curriculum here.
-
-<div id="overall-container">
-<span>Overall Progress: <span id="overall-percentage">0%</span></span>
-
-  <div class="progress-bar"><div id="overall-bar"></div></div>
-</div>
-
-<div id="curriculum"></div>
-
-
-
-<!-- Buttons -->
-<button id="export-progress">📤 Fortschritt exportieren</button>
-<input type="file" id="import-file" style="display:none;">
-<button id="import-progress">📥 Fortschritt importieren</button>
-<button id="resetBtn">Reset Progress</button>
-
