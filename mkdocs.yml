@@ -4,10 +4,3 @@ use_directory_urls: true
 
 theme:
   name: material
-
-# Assets einbinden
-extra_css:
-  - assets/css/style.css
-
-extra_javascript:
-  - assets/js/script.js
