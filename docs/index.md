@@ -20,15 +20,16 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 You'll see the overall progress of your curriculum here.
 
-<div id="overall-progress">
-  Overall Progress: <span id="overall-percentage">0%</span>
+<<div id="overall-container">
+<span>Overall Progress: <span id="overall-percentage">0%</span></span>
+
   <div class="progress-bar"><div id="overall-bar"></div></div>
 </div>
 
 <div id="curriculum"></div>
 
-<!-- Buttons -->
-
 <button id="exportBtn">Export Progress</button>
 <button id="importBtn">Import Progress</button>
 <button id="resetBtn">Reset Progress</button>
+
+<!-- Buttons -->
