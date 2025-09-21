@@ -12,6 +12,6 @@ extra_css:
 
 # Include custom JavaScript
 extra_javascript:
-  - assets/js/script.js
+  - /assets/js/script.js
 plugins:
   - search
