@@ -20,7 +20,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 You'll see the overall progress of your curriculum here.
 
-<<div id="overall-container">
+<div id="overall-container">
 <span>Overall Progress: <span id="overall-percentage">0%</span></span>
 
   <div class="progress-bar"><div id="overall-bar"></div></div>
