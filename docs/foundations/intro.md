@@ -15,13 +15,7 @@ Welcome to Lempire Curriculum!
 
 In this chapter we'll give you a quick overview of what our curriculum's purpose is.
 
-<!-- Bottom Progress Bar -->
-<div id="bottom-progress-container">
-  <span id="bottom-percentage">0%</span>
-  <div class="progress-bar"><div id="bottom-bar"></div></div>
-</div>
-<!-- Lesson Complete Button -->
-<button id="completeLessonBtn">Lektion komplett abschließen</button>
+
 <div class="progress-container">
   <div class="overall-progress-bar"></div>
 </div>
