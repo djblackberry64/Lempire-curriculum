@@ -35,7 +35,7 @@ function resetProgress() {
 // =======================
 async function loadCurriculum() {
   try {
-    const response = await fetch("/assets/data/curriculum.json");
+    const response = await fetch("assets/data/curriculum.json");
     if (!response.ok) {
       throw new Error(`HTTP Error: ${response.status}`);
     }
