@@ -1,4 +1,7 @@
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
 # Welcome to MkDocs
+
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

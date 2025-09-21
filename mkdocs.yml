@@ -8,10 +8,10 @@ nav:
     - Intro: foundations/intro.md
 # Include custom CSS
 extra_css:
-  - css/style.css
+  - /assets/css/style.css
 
 # Include custom JavaScript
 extra_javascript:
-  - js/script.js
+  - assets/js/script.js
 plugins:
   - search

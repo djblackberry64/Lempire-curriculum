@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* Progress Bars */
+.progress-bar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 8px;
+  height: 20px;
+  margin: 5px 0;
+}
+.progress-bar div {
+  height: 100%;
+  background: #4caf50;
+  width: 0%;
+  border-radius: 8px;
+  transition: width 0.4s ease;
+}
+
+/* Top & Bottom Progress Containers */
+#top-progress-container,
+#bottom-progress-container,
+#overall-progress {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Sections & Lessons */
+.section, .lesson { margin: 5px 0; }
+.section-title { 
+  cursor: pointer; 
+  font-weight: bold; 
+  padding: 5px; 
+  background: #f1f1f1; 
+  border-radius: 4px; 
+}
+.lesson { margin-left: 20px; }
+.hidden { display: none; }
+
+/* Lesson Complete Button */
+#completeLessonBtn {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#completeLessonBtn:hover { background-color: #45a049; }
+
+/* Export/Import/Reset Buttons */
+button { margin: 5px; padding: 5px 10px; cursor: pointer; }
