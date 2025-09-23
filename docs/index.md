@@ -18,7 +18,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Curriculum Overview
 
-You'll see the overall progress of your curriculum here.
+You'll see the overall progression of the curriculum here.
+Please be sure to check for updates as this curriculum is in active development.
 
 ## Support
 
