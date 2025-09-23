@@ -7,4 +7,8 @@ Welcome to Lempire Curriculum!
 ## Chapter 2: Overview of lesson Content
 
 In this chapter we'll give you a quick overview of what our curriculum's purpose is.
+Here is a little outline on our foundation topics:
 
+<ul>
+<li></li>
+</ul>

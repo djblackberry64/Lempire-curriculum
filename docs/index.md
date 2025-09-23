@@ -1,6 +1,5 @@
 # Welcome to MkDocs
 
-
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
@@ -20,3 +19,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Curriculum Overview
 
 You'll see the overall progress of your curriculum here.
+
+## Support
+
+If you wanna support me, consider buying me a coffee on Ko-fi at https://ko-fi.com/djblackberry64 or just click the button down below to get redirected: <br /><img href="https://ko-fi.com/djblackberry64" src="./assets/img/Ko-Fi.jpg" width="150"></img>
