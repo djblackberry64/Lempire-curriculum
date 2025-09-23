@@ -4,3 +4,5 @@ use_directory_urls: true
 
 theme:
   name: material
+deploy:
+  force: true
