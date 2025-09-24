@@ -23,5 +23,5 @@ Please be sure to check for updates as this curriculum is in active development.
 
 ## Support
 
-If you wanna support me, consider buying me a coffee on Ko-fi at https://ko-fi.com/djblackberry64 or just click the button down below to get redirected:<br />
+If you wanna support me, consider buying me a coffee on Ko-fi at<br />https://ko-fi.com/djblackberry64<br /> or just click the button down below to get redirected:<br />
 <a href="https://ko-fi.com/djblackberry64"><img src="./assets/img/Ko-Fi.jpg" width="150"></a>
