@@ -9,19 +9,18 @@ Welcome to Lempire Curriculum!
 In this chapter we'll give you a quick overview of what our curriculum's purpose is.
 Here is a little outline on our foundation topics:
 
-<ul>
-  <li>Introduction to the programming world
+<details>
+  <summary>Introduction to the programming world</summary>
     <ul>
       <li>What is programming?</li>
       <li>The history of programming</li>
       <li>Principles of Programming</li>
-      <li>How do I program?
+      <li><details><summary>How do I program?</summary>
         <ul>
           <li>OS</li>
           <li>IDE</li>
           <li>Installations</li>
         </ul>
-      </li>
+      </details></li>
     </ul>
-  </li>
-</ul>
+</details>
