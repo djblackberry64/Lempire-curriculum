@@ -17,7 +17,7 @@ Here is a little outline on our foundation topics:
       <details><summary>Principles of Programming</summary></details>
       <details><summary>How do I program?</summary>
         <ul>
-          <details><summary>OS<summary></details>
+          <details><summary>OS</summary></details>
           <details><summary>IDE</summary></details>
           <details><summary>Installations</summary></details>
         </ul>
