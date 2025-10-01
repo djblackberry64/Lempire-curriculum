@@ -10,5 +10,12 @@ In this chapter we'll give you a quick overview of what our curriculum's purpose
 Here is a little outline on our foundation topics:
 
 <ul>
-<li></li>
+  <li>
+    <ul>Introduction to the programming world<br />
+      <li>What is programming?</li>
+      <li>The history of programming</li>
+      <li>Principles of Programming</li>
+      <li>How do I program(OS, IDE, Installations)</li>
+    </ul>
+  </li>
 </ul>
