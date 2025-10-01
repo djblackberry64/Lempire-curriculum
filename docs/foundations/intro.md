@@ -12,15 +12,15 @@ Here is a little outline on our foundation topics:
 <details>
   <summary>Introduction to the programming world</summary>
     <ul>
-      <li>What is programming?</li>
-      <li>The history of programming</li>
-      <li>Principles of Programming</li>
-      <li><details><summary>How do I program?</summary>
+      <details><summary>What is programming?</summary></details>
+      <details><summary>The history of programming</summary></details>
+      <details><summary>Principles of Programming</summary></details>
+      <details><summary>How do I program?</summary>
         <ul>
-          <li>OS</li>
-          <li>IDE</li>
-          <li>Installations</li>
+          <details><summary>OS<summary></details>
+          <details><summary>IDE</summary></details>
+          <details><summary>Installations</summary></details>
         </ul>
-      </details></li>
+      </details>
     </ul>
 </details>
