@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://username.github.io/repo-name/</loc>
-         <lastmod>2025-12-03</lastmod>
+        <loc>https://username.github.io/repo-name/</loc>
+        <lastmod>2025-12-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/repo-name/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/repo-name/de/"/>
     </url>
     <url>
-         <loc>https://username.github.io/repo-name/foundations/intro/</loc>
-         <lastmod>2025-12-03</lastmod>
+        <loc>https://username.github.io/repo-name/foundations/intro/</loc>
+        <lastmod>2025-12-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/repo-name/foundations/intro/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/repo-name/de/foundations/intro/"/>
+    </url>
+    <url>
+        <loc>https://username.github.io/repo-name/de/</loc>
+        <lastmod>2025-12-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/repo-name/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/repo-name/"/>
+    </url>
+    <url>
+        <loc>https://username.github.io/repo-name/de/foundations/intro/</loc>
+        <lastmod>2025-12-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/repo-name/de/foundations/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/repo-name/foundations/intro/"/>
     </url>
 </urlset>
