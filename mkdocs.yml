@@ -1,6 +1,44 @@
 site_name: "Lempire Curriculum"
-site_url: "https://username.github.io/repo-name/"
+site_url: "https://username.github.io/Lempire-curriculum/"
 use_directory_urls: true
 
 theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  alternate:
+    - name: English
+      link: ""
+      lang: en
+    - name: Deutsch
+      link: de
+      lang: de
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: false
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: "Lempire curriculum"
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: "Lempire Kurs"
+          default: false
