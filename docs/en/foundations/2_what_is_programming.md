@@ -8,7 +8,7 @@ Programming knowledge is the understanding of fundamental principles in software
 
 ## What you can do with it
 
-If you just know how to programm you won't get far. You will need to learn how to code in order to do that. For that you will have to pick a programming language (more on that later).
+If you just know how to program you won't get far. You will need to learn how to code in order to do that. For that you will have to pick a programming language (more on that later).
 
 > But remember!
 >

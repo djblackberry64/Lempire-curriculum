@@ -1,0 +1,16 @@
+{
+  "De": [
+    {
+      "url": "/de/index/",
+      "file": "index.md",
+      "totalChapters": 4
+    }
+  ],
+  "En": [
+    {
+      "url": "/en/index/",
+      "file": "index.md",
+      "totalChapters": 4
+    }
+  ]
+}

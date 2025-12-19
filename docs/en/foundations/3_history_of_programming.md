@@ -16,7 +16,7 @@ To keep it short: C used Assembly to write it's compiler.
 
 Let's see what happened there:
 
-So the base of the C compiler is assembly code which in turn is translated into binary code.
+So the base of the C compiler is Assembly code which in turn is translated into binary code.
 
 _How can the compiler be written in C then? - It isn't really written in C._
 

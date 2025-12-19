@@ -1,9 +1,9 @@
 import os, re, json
 
 DOCS_DIR = "docs"
-DATA_DIR = os.path.join(DOCS_DIR, "assets", "data")
-os.makedirs(DATA_DIR, exist_ok=True)
-OUTPUT_FILE = os.path.join(DATA_DIR, "curriculum.json")
+# DATA_DIR = os.path.join(DOCS_DIR, "en", "assets", "data")
+os.makedirs("data", exist_ok=True)
+OUTPUT_FILE = os.path.join("data", "curriculum.json")
 
 heading_pattern = re.compile(r"^\s*#{2,3}\s+(.*)", re.MULTILINE)
 curriculum = {}
