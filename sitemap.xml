@@ -12,18 +12,21 @@
         <lastmod>2025-12-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/Lempire-curriculum/foundations/1_intro/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/foundations/1_intro/"/>
     </url>
     <url>
         <loc>https://username.github.io/Lempire-curriculum/foundations/2_what_is_programming/</loc>
         <lastmod>2025-12-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/Lempire-curriculum/foundations/2_what_is_programming/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/foundations/2_what_is_programming/"/>
     </url>
     <url>
         <loc>https://username.github.io/Lempire-curriculum/foundations/3_history_of_programming/</loc>
         <lastmod>2025-12-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/Lempire-curriculum/foundations/3_history_of_programming/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/foundations/3_history_of_programming/"/>
     </url>
     <url>
         <loc>https://username.github.io/Lempire-curriculum/language-specific-lessons/1_intro/</loc>
@@ -39,21 +42,24 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/Lempire-curriculum/"/>
     </url>
     <url>
-        <loc>https://username.github.io/Lempire-curriculum/de/grundlagen/1_intro/</loc>
+        <loc>https://username.github.io/Lempire-curriculum/de/foundations/1_intro/</loc>
         <lastmod>2025-12-20</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/grundlagen/1_intro/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/foundations/1_intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/Lempire-curriculum/foundations/1_intro/"/>
     </url>
     <url>
-        <loc>https://username.github.io/Lempire-curriculum/de/grundlagen/2_what_is_programming/</loc>
+        <loc>https://username.github.io/Lempire-curriculum/de/foundations/2_what_is_programming/</loc>
         <lastmod>2025-12-20</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/grundlagen/2_what_is_programming/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/foundations/2_what_is_programming/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/Lempire-curriculum/foundations/2_what_is_programming/"/>
     </url>
     <url>
-        <loc>https://username.github.io/Lempire-curriculum/de/grundlagen/3_history_of_programming/</loc>
+        <loc>https://username.github.io/Lempire-curriculum/de/foundations/3_history_of_programming/</loc>
         <lastmod>2025-12-20</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/grundlagen/3_history_of_programming/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://username.github.io/Lempire-curriculum/de/foundations/3_history_of_programming/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/Lempire-curriculum/foundations/3_history_of_programming/"/>
     </url>
 </urlset>
