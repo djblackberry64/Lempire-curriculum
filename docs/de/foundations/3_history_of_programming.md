@@ -1,20 +1,6 @@
-# History of programming
-
-We had had a loooong way to go until we ended up where we are today. Let me take you through a little journey...
-
-<figure>
-    <img src="../../assets/img/biker_embarking_on_journey.jpeg"
-         alt="Austria, Random Hill" width="300">
-    <figcaption>A biker embarking on a journey into the horizon</figcaption>
-</figure>
+# Die Geschichte der Programmierung
 
 ## Humble beginnings of programming
-
-### Textiles and Punch Cards
-
-The first programs weren't written on a screen. Heck they weren't even written at all!
-
-They were punched into cards and they didn't display a shiny UI. They were used to automate machines involved in the weaving process.
 
 ## Low Level Predecessor Languages
 

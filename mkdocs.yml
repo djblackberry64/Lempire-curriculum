@@ -22,10 +22,11 @@ extra:
       link: ""
       lang: en
     - name: Deutsch
-      link: de
+      link: "de"
       lang: de
 plugins:
   - search
+  - awesome-pages
   - i18n:
       docs_structure: folder
       fallback_to_default: false
@@ -42,3 +43,11 @@ plugins:
           build: true
           site_name: "Lempire Kurs"
           default: false
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - resources/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
